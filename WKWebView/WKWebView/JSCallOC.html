@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"/>
+    
+    <title>JSCallOC</title>
+    
+    <style>
+        *
+        {
+            //-webkit-tap-highlight-color: rgba(0,0,0,0);
+            text-decoration: none;
+        }
+    
+        html,body
+        {
+            -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+            -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+            -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+        }
+    
+        #div-a
+        {
+            background:#FBA;
+            color:#FFF;
+
+            border-radius: 25px 5px;
+        }
+
+
+    </style>
+    
+    <script type="text/javascript">
+        
+        function ocCallJs()
+        {
+            return "ocCallJs"
+        }
+        function call()
+        {
+            //前端需要用 window.webkit.messageHandlers.注册的方法名.postMessage({body:传输的数据} 来给native发送消息
+            window.webkit.messageHandlers.jsCallOC.postMessage({body: 'hello world!'});
+            alert("测试")
+        }
+    
+    </script>
+    
+</head>
+
+<body style="background:#CDE; color:#FFF">
+    <div id="div-a">
+        <center>
+            
+            <input type="button" value="jsCallOC" onclick="call()" />
+            <br/>
+            <br/>
+            
+            <a id="push" href="#" onclick="native.pushViewControllerTitle('SecondViewController','secondPushedFromJS');">
+            </a>
+            
+            <br/>
+            <br/>
+            
+        </center>
+    </div>
+
+    
+    
+</body>
+
+</html>
