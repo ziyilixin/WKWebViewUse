@@ -2,8 +2,8 @@
 Simple use of WKWebView
 
 屏幕截图
-![]()
-![]()
+![](https://github.com/ziyilixin/WKWebViewUse/blob/master/WKWebView/WKWebView/Picture/1.png?raw=true)
+![](https://github.com/ziyilixin/WKWebViewUse/blob/master/WKWebView/WKWebView/Picture/2.png?raw=true)
 
 ## 添加WKWebView
 ```objc
