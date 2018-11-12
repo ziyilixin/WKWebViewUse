@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0CBF2421997D0C00080BD5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0CBF2321997D0C00080BD5 /* 1.png */; };
+		BB0CBF2621997D1000080BD5 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0CBF2521997D1000080BD5 /* 2.png */; };
 		BBDA8A3A20B401E800210DD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA8A3920B401E800210DD4 /* AppDelegate.m */; };
 		BBDA8A3D20B401E800210DD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDA8A3C20B401E800210DD4 /* ViewController.m */; };
 		BBDA8A4020B401E800210DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDA8A3E20B401E800210DD4 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB0CBF2321997D0C00080BD5 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BB0CBF2521997D1000080BD5 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		BBDA8A3520B401E800210DD4 /* WKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDA8A3820B401E800210DD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBDA8A3920B401E800210DD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB0CBF2221997CFA00080BD5 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				BB0CBF2321997D0C00080BD5 /* 1.png */,
+				BB0CBF2521997D1000080BD5 /* 2.png */,
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
 		BBDA8A2C20B401E800210DD4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +73,7 @@
 		BBDA8A3720B401E800210DD4 /* WKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				BB0CBF2221997CFA00080BD5 /* Picture */,
 				BBDA8A4E20B40CC400210DD4 /* JSCallOC.html */,
 				BBDA8A3820B401E800210DD4 /* AppDelegate.h */,
 				BBDA8A3920B401E800210DD4 /* AppDelegate.m */,
@@ -131,10 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0CBF2621997D1000080BD5 /* 2.png in Resources */,
 				BBDA8A4520B401E900210DD4 /* LaunchScreen.storyboard in Resources */,
 				BBDA8A4220B401E900210DD4 /* Assets.xcassets in Resources */,
 				BBDA8A4020B401E800210DD4 /* Main.storyboard in Resources */,
 				BBDA8A4F20B40CC400210DD4 /* JSCallOC.html in Resources */,
+				BB0CBF2421997D0C00080BD5 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
